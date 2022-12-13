@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Soure Serif Pro",
+}
+
+body{
+    overflow: hidden;
+}
+
+.background{
+    background: linear-gradient(rgba(191, 165, 165, 0.5), rgba(234, 24, 132, 0.5));
+    background-image: url(photo.p/photo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.subtitle-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer; 
+}
+
+.subtitle-link a{
+    color: #d034cd(246, 246, 250);
+    font-size: 18px;
+}
+
+.subtitle-link a :hover{
+    color:#d034cd(229, 132, 216);
+    transition: 0.3s all; 
+
+}
+
+.logo i{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #d034cd;
+    color: #d034cd;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.button{
+    color:#de12a1;
+    background: transparent;
+    border: solid 1px #de12a1;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(235, 22, 235) ;
+    color:rgb(234, 12, 204);
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 150px 0 0 130px;
+
+}
+
+.text h3{
+    color: rgb(213, 227, 230);
+    font-size: 20px;
+
+}
+
+.text h1{
+    color: rgb(66, 203, 237);
+    margin-top: 10px;
+}
+
+.text span{
+    color:#d034cd
+}
+
+.text p{
+    color:rgb(209, 214, 215);
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.previeus-work a{
+    color: white;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.btn{
+    margin-top: 10px;
+}
